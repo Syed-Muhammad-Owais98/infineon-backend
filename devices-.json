@@ -1,0 +1,559 @@
+{
+    "error": "",
+    "payload": [
+        {
+            "groups": [
+                {
+                    "devices": [
+                        {
+                            "id": "Sentinel HL (AW24-011617.1502) (In-use by:BLRAWUSB24-DEVIKA at 10.219.36.255)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1502",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "BLRAWUSB24-DEVIKA AT 10.219.36.255 (ISCN5CG219067R)",
+                                "PORT ON HUB": "2",
+                                "PRODUCT": "Sentinel HL",
+                                "PRODUCT ID": "0x0300",
+                                "VENDOR": "Gemalto",
+                                "VENDOR ID": "0x04b9"
+                            }
+                        },
+                        {
+                            "id": "DAS JDS TriBoard TC4X9 COM V1.0 (AW24-011617.1501) (In-use by:BLRAWUSB24-DEVIKA at 10.219.36.255)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1501",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "BLRAWUSB24-DEVIKA AT 10.219.36.255 (ISCN5CG219067R)",
+                                "PORT ON HUB": "1",
+                                "PRODUCT": "DAS JDS TriBoard TC4X9 COM V1.0",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "TB8Q46FN",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        }
+                    ],
+                    "id": "Red499 (AW24-011617.1) (In-use by:BLRAWUSB24-DEVIKA at 10.219.36.255)",
+                    "properties": {
+                        "ADDRESS": "AW24-011617.1",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "1",
+                        "IN USE BY": "BLRAWUSB24-DEVIKA AT 10.219.36.255 (ISCN5CG219067R)",
+                        "NAME": "Red499",
+                        "PORTS": "1 2"
+                    }
+                },
+                {
+                    "devices": [
+                        {
+                            "id": "DAS JDS TriBoard TC4X9 COM V1.0 (AW24-011617.1912) (In-use by:ISCE1N115007NC at 10.219.132.67)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1912",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "ISCE1N115007NC AT 10.219.132.67 (ISCE1N115007NC)",
+                                "PORT ON HUB": "12",
+                                "PRODUCT": "DAS JDS TriBoard TC4X9 COM V1.0",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "TB7V4369",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        },
+                        {
+                            "id": "PCAN-USB Pro FD (AW24-011617.1909) (In-use by:ISCE1N115007NC at 10.219.132.67)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1909",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "ISCE1N115007NC AT 10.219.132.67 (ISCE1N115007NC)",
+                                "PORT ON HUB": "9",
+                                "PRODUCT": "PCAN-USB Pro FD",
+                                "PRODUCT ID": "0x0011",
+                                "VENDOR": "PEAK-System Technik GmbH",
+                                "VENDOR ID": "0x0c72"
+                            }
+                        },
+                        {
+                            "id": "DAS JDS miniWiggler JTAG/DAP/SPD V2 (AW24-011617.1707) (In-use by:ISCE1N115007NC at 10.219.132.67)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1707",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "ISCE1N115007NC AT 10.219.132.67 (ISCE1N115007NC)",
+                                "PORT ON HUB": "7",
+                                "PRODUCT": "DAS JDS miniWiggler JTAG/DAP/SPD V2",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "MW5BLS4Z",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        },
+                        {
+                            "id": "FT4222 (AW24-011617.1910) (In-use by:ISCE1N115007NC at 10.219.132.67)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1910",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "ISCE1N115007NC AT 10.219.132.67 (ISCE1N115007NC)",
+                                "PORT ON HUB": "10",
+                                "PRODUCT": "FT4222",
+                                "PRODUCT ID": "0x601c",
+                                "VENDOR": "FTDI",
+                                "VENDOR ID": "0x0403"
+                            }
+                        },
+                        {
+                            "id": "Logic Pro (AW24-011617.2011) (In-use by:ISCE1N115007NC at 10.219.132.67)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.2011",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "ISCE1N115007NC AT 10.219.132.67 (ISCE1N115007NC)",
+                                "PORT ON HUB": "11",
+                                "PRODUCT": "Logic Pro",
+                                "PRODUCT ID": "0x1006",
+                                "SERIAL": "SERNUM",
+                                "VENDOR": "Saleae",
+                                "VENDOR ID": "0x21a9"
+                            }
+                        },
+                        {
+                            "id": "Logic Pro (AW24-011617.1216) (In-use by:ISCE1N115007NC at 10.219.132.67)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1216",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "ISCE1N115007NC AT 10.219.132.67 (ISCE1N115007NC)",
+                                "PORT ON HUB": "16",
+                                "PRODUCT": "Logic Pro",
+                                "PRODUCT ID": "0x1006",
+                                "SERIAL": "SERNUM",
+                                "VENDOR": "Saleae",
+                                "VENDOR ID": "0x21a9"
+                            }
+                        },
+                        {
+                            "id": "XILINX (AW24-011617.1708) (In-use by:ISCE1N115007NC at 10.219.132.67)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1708",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "ISCE1N115007NC AT 10.219.132.67 (ISCE1N115007NC)",
+                                "PORT ON HUB": "8",
+                                "PRODUCT": "XILINX",
+                                "PRODUCT ID": "0x0008",
+                                "VENDOR": "XILINX",
+                                "VENDOR ID": "0x03fd"
+                            }
+                        }
+                    ],
+                    "id": "FPGA-Board (AW24-011617.2) (In-use by:ISCE1N115007NC at 10.219.132.67)",
+                    "properties": {
+                        "ADDRESS": "AW24-011617.2",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "2",
+                        "IN USE BY": "ISCE1N115007NC AT 10.219.132.67 (ISCE1N115007NC)",
+                        "NAME": "FPGA-Board",
+                        "PORTS": "7 8 9 10 11 12 16"
+                    }
+                },
+                {
+                    "devices": [
+                        {
+                            "id": "DAS JDS TriBoard TC4X9 COM V1.0 (AW24-011617.1504) (In-use by:Dev at 10.219.131.51)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1504",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "Dev AT 10.219.131.51 (ISCN5CG1216415)",
+                                "PORT ON HUB": "4",
+                                "PRODUCT": "DAS JDS TriBoard TC4X9 COM V1.0",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "TB8656ES",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        }
+                    ],
+                    "id": "Group 3 (AW24-011617.3) (In-use by:Dev at 10.219.131.51)",
+                    "properties": {
+                        "ADDRESS": "AW24-011617.3",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "3",
+                        "IN USE BY": "Dev AT 10.219.131.51 (ISCN5CG1216415)",
+                        "NAME": "Group 3",
+                        "PORTS": "4"
+                    }
+                },
+                {
+                    "devices": [
+                        {
+                            "id": "0x1202 (AW24-011617.1705)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1705",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "NO ONE",
+                                "PORT ON HUB": "5",
+                                "PRODUCT": "0x1202",
+                                "PRODUCT ID": "0x1202",
+                                "SERIAL": "MY61001419",
+                                "VENDOR": "Keysight Technologies",
+                                "VENDOR ID": "0x2a8d"
+                            }
+                        }
+                    ],
+                    "id": "Group  4 (AW24-011617.4)",
+                    "properties": {
+                        "ADDRESS": "AW24-011617.4",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "4",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group  4",
+                        "PORTS": "5"
+                    }
+                },
+                {
+                    "devices": [
+                        {
+                            "id": "DAS JDS TriBoard TC499A COM V1.0 (AW24-011617.1706)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1706",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "NO ONE",
+                                "PORT ON HUB": "6",
+                                "PRODUCT": "DAS JDS TriBoard TC499A COM V1.0",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "TB6AVME6",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        }
+                    ],
+                    "id": "Group  5 (AW24-011617.5)",
+                    "properties": {
+                        "ADDRESS": "AW24-011617.5",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "5",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group  5",
+                        "PORTS": "6"
+                    }
+                },
+                {
+                    "devices": [
+                        {
+                            "id": "DAS JDS TriBoard TC4X9 COM V1.0 (AW24-011617.1113) (In-use by:krishnakumarv at 10.219.36.22)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1113",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "krishnakumarv AT 10.219.36.22 (ISCN5CG05012WR)",
+                                "PORT ON HUB": "13",
+                                "PRODUCT": "DAS JDS TriBoard TC4X9 COM V1.0",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "TB8656TI",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        }
+                    ],
+                    "id": "Group  6 (AW24-011617.6) (In-use by:krishnakumarv at 10.219.36.22)",
+                    "properties": {
+                        "ADDRESS": "AW24-011617.6",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "6",
+                        "IN USE BY": "krishnakumarv AT 10.219.36.22 (ISCN5CG05012WR)",
+                        "NAME": "Group  6",
+                        "PORTS": "13"
+                    }
+                },
+                {
+                    "devices": [
+                        {
+                            "id": "DAS JDS TriBoard TC499A STD V1.1 (AW24-011617.1114)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1114",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "NO ONE",
+                                "PORT ON HUB": "14",
+                                "PRODUCT": "DAS JDS TriBoard TC499A STD V1.1",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "TB6Y6J50",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        }
+                    ],
+                    "id": "Group  7 (AW24-011617.7)",
+                    "properties": {
+                        "ADDRESS": "AW24-011617.7",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "7",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group  7",
+                        "PORTS": "14"
+                    }
+                },
+                {
+                    "devices": [
+                        {
+                            "id": "DAS JDS TriBoard TC499A STD V1.0 (AW24-011617.1115)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1115",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "NO ONE",
+                                "PORT ON HUB": "15",
+                                "PRODUCT": "DAS JDS TriBoard TC499A STD V1.0",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "TB6AQ4Q1",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        }
+                    ],
+                    "id": "Group  8 (AW24-011617.8)",
+                    "properties": {
+                        "ADDRESS": "AW24-011617.8",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "8",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group  8",
+                        "PORTS": "15"
+                    }
+                },
+                {
+                    "devices": [
+                        {
+                            "id": "DAS JDS TriBoard TC399 TH V2.0 (AW24-011617.1503)",
+                            "properties": {
+                                "ADDRESS": "AW24-011617.1503",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "NO ONE",
+                                "PORT ON HUB": "3",
+                                "PRODUCT": "DAS JDS TriBoard TC399 TH V2.0",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "TB21FI0L",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        }
+                    ],
+                    "id": "Group  9 (AW24-011617.9)",
+                    "properties": {
+                        "ADDRESS": "AW24-011617.9",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "9",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group  9",
+                        "PORTS": "3"
+                    }
+                }
+            ],
+            "id": "AW24-011617 (aw24-011617.blr.infineon.com:18574)",
+            "properties": {
+                "ADDRESS": "aw24-011617.blr.infineon.com (SSL Subject:/C=US/ST=MN/L=Hopkins/O=Digi International Inc. ,Issuer:/C=US/ST=MN/L=Hopkins/O=Digi International Inc.) (10.219.2.11)",
+                "AUTOCONNECT": "disabled",
+                "CONNECTED FOR": "72725 sec",
+                "CONNECTION ID": "17",
+                "INTERFACE": "bond0",
+                "MODEL": "AnywhereUSB 24 Plus",
+                "NAME": "AW24-011617",
+                "PORT": "18574",
+                "SERIAL NUMBER": "AW24-011617",
+                "STATE": "Active (secure)",
+                "VERSION": "22.2.9.85 awusb -- Thu, 03 Mar 2022 12:05:39 +0000"
+            }
+        },
+        {
+            "groups": [
+                {
+                    "devices": [],
+                    "id": "Group_3 (rtf-lab-hub.intra.infineon.com.3)",
+                    "properties": {
+                        "ADDRESS": "rtf-lab-hub.intra.infineon.com.3",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "3",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group_3",
+                        "PORTS": "2 3"
+                    }
+                },
+                {
+                    "devices": [],
+                    "id": "Group_4 (rtf-lab-hub.intra.infineon.com.4)",
+                    "properties": {
+                        "ADDRESS": "rtf-lab-hub.intra.infineon.com.4",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "4",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group_4",
+                        "PORTS": "4"
+                    }
+                },
+                {
+                    "devices": [],
+                    "id": "Group_5 (rtf-lab-hub.intra.infineon.com.5)",
+                    "properties": {
+                        "ADDRESS": "rtf-lab-hub.intra.infineon.com.5",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "5",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group_5",
+                        "PORTS": "5"
+                    }
+                },
+                {
+                    "devices": [],
+                    "id": "Group_6 (rtf-lab-hub.intra.infineon.com.6)",
+                    "properties": {
+                        "ADDRESS": "rtf-lab-hub.intra.infineon.com.6",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "6",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group_6",
+                        "PORTS": "6"
+                    }
+                },
+                {
+                    "devices": [
+                        {
+                            "id": "DAS JDS AURIX LITE KIT V1.0 (TC334) (rtf-lab-hub.intra.infineon.com.1707)",
+                            "properties": {
+                                "ADDRESS": "rtf-lab-hub.intra.infineon.com.1707",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "NO ONE",
+                                "PORT ON HUB": "7",
+                                "PRODUCT": "DAS JDS AURIX LITE KIT V1.0 (TC334)",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "LK6HHGDL",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        }
+                    ],
+                    "id": "Group_7 (rtf-lab-hub.intra.infineon.com.7)",
+                    "properties": {
+                        "ADDRESS": "rtf-lab-hub.intra.infineon.com.7",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "7",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group_7",
+                        "PORTS": "7"
+                    }
+                },
+                {
+                    "devices": [],
+                    "id": "Group_8 (rtf-lab-hub.intra.infineon.com.8)",
+                    "properties": {
+                        "ADDRESS": "rtf-lab-hub.intra.infineon.com.8",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "8",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group_8",
+                        "PORTS": "8"
+                    }
+                },
+                {
+                    "devices": [],
+                    "id": "Group_9 (rtf-lab-hub.intra.infineon.com.9)",
+                    "properties": {
+                        "ADDRESS": "rtf-lab-hub.intra.infineon.com.9",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "9",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "Group_9",
+                        "PORTS": "9"
+                    }
+                },
+                {
+                    "devices": [
+                        {
+                            "id": "DAS JDS AURIX LITE KIT V1.1 (rtf-lab-hub.intra.infineon.com.1114)",
+                            "properties": {
+                                "ADDRESS": "rtf-lab-hub.intra.infineon.com.1114",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "NO ONE",
+                                "PORT ON HUB": "14",
+                                "PRODUCT": "DAS JDS AURIX LITE KIT V1.1",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "LK4GLHDG",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        },
+                        {
+                            "id": "DAS JDS AURIX LITE KIT V1.1 (rtf-lab-hub.intra.infineon.com.1115)",
+                            "properties": {
+                                "ADDRESS": "rtf-lab-hub.intra.infineon.com.1115",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "NO ONE",
+                                "PORT ON HUB": "15",
+                                "PRODUCT": "DAS JDS AURIX LITE KIT V1.1",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "LK4GLJXG",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        },
+                        {
+                            "id": "DAS JDS AURIX LITE KIT V1.1 (rtf-lab-hub.intra.infineon.com.1113)",
+                            "properties": {
+                                "ADDRESS": "rtf-lab-hub.intra.infineon.com.1113",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "NO ONE",
+                                "PORT ON HUB": "13",
+                                "PRODUCT": "DAS JDS AURIX LITE KIT V1.1",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "LK7QFIZ6",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        },
+                        {
+                            "id": "0x01a2 (rtf-lab-hub.intra.infineon.com.1322)",
+                            "properties": {
+                                "ADDRESS": "rtf-lab-hub.intra.infineon.com.1322",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "NO ONE",
+                                "PORT ON HUB": "22",
+                                "PRODUCT": "0x01a2",
+                                "PRODUCT ID": "0x01a2",
+                                "VENDOR": "0x77a1",
+                                "VENDOR ID": "0x77a1"
+                            }
+                        },
+                        {
+                            "id": "DAS JDS AURIX LITE KIT V1.1 (rtf-lab-hub.intra.infineon.com.1912)",
+                            "properties": {
+                                "ADDRESS": "rtf-lab-hub.intra.infineon.com.1912",
+                                "AUTOCONNECT": "disabled",
+                                "IN USE BY": "NO ONE",
+                                "PORT ON HUB": "12",
+                                "PRODUCT": "DAS JDS AURIX LITE KIT V1.1",
+                                "PRODUCT ID": "0x0043",
+                                "SERIAL": "LK4GLHS4",
+                                "VENDOR": "IFX",
+                                "VENDOR ID": "0x058b"
+                            }
+                        }
+                    ],
+                    "id": "this is the end (rtf-lab-hub.intra.infineon.com.10)",
+                    "properties": {
+                        "ADDRESS": "rtf-lab-hub.intra.infineon.com.10",
+                        "AUTOCONNECT": "disabled",
+                        "GROUP": "10",
+                        "IN USE BY": "NO ONE",
+                        "NAME": "this is the end",
+                        "PORTS": "1 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24"
+                    }
+                }
+            ],
+            "id": "rtf-lab-hub.intra.infineon.com (rtf-lab-hub.intra.infineon.com:18574)",
+            "properties": {
+                "ADDRESS": "rtf-lab-hub.intra.infineon.com (SSL Subject:/C=DE/ST=Bavaria/L=Munich/O=Infineon Technologies AG/OU=IFAG IT/CN=rtf-lab-hub.intra.infineon.com ,Issuer:/C=DE/O=Infineon Technologies AG/CN=Infineon Technologies AG SSL CA 4) (10.132.13.199)",
+                "AUTOCONNECT": "disabled",
+                "CONNECTED FOR": "185931 sec",
+                "CONNECTION ID": "11",
+                "INTERFACE": "eth1",
+                "MODEL": "AnywhereUSB 24 Plus",
+                "NAME": "rtf-lab-hub.intra.infineon.com",
+                "PORT": "18574",
+                "SERIAL NUMBER": "AW24-011730",
+                "STATE": "Active (secure)",
+                "VERSION": "22.2.9.85 awusb -- Thu, 03 Mar 2022 12:05:39 +0000"
+            }
+        }
+    ]
+}

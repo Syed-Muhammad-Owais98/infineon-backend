@@ -1,0 +1,53 @@
+version: "3"
+services:
+  nodejs-app:
+    container_name: rtf_nodejs-app
+    image: node:latest
+    build: .
+    working_dir: /app
+    command: ["./wait-for-it.sh", "postgres-db:5432", "--", "./wait-for-it.sh", "mosquitto:1883", "--", "node", "server.js"]
+    ports:
+      - "8082:8082"
+    depends_on:
+      - postgres-db
+      - mosquitto
+    networks:
+      - mynetwork
+
+  postgres-db:
+    container_name: rtf_postgres-app
+    restart: always
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: user1
+      POSTGRES_DB: post_db # Replace with your desired database name
+      POSTGRES_PASSWORD: newpasssword
+    ports:
+      - "2345:5432"
+    networks:
+      - mynetwork
+    volumes:
+      - ./migrations:/docker-entrypoint-initdb.d
+
+  mosquitto:
+    container_name: rtf_mosquitto
+    image: eclipse-mosquitto:latest
+    ports:
+      - "1883:1883" # MQTT port
+      - "9001:9001" # MQTT WebSocket port (optional)
+    environment:
+    - MQTT_USERNAME=RTFlocalBroker
+    - MQTT_PASSWORD=rtf1www
+    networks:
+      - mynetwork
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./passwd:/mosquitto/config/passwd
+    
+
+networks:
+  mynetwork:
+    driver: bridge
+
+volumes:
+  postgres-data:
